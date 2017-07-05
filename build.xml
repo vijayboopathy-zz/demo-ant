@@ -18,7 +18,7 @@
 		</javac>
 	</target>
 	
-	<target name="war" depends="compile">
+	<target name="target" depends="compile">
 		<war destfile="dist/AntExample.war" webxml="WebContent/WEB-INF/web.xml">
 			<fileset dir="WebContent"/>
 			<lib dir="WebContent/WEB-INF/lib"/>
